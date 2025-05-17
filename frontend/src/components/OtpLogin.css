@@ -1,0 +1,108 @@
+.otp-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.otp-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.otp-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 1rem;
+}
+
+.otp-button:hover {
+  background-color: #1e40af;
+}
+
+.otp-button.verify {
+  background-color: #16a34a;
+}
+
+.otp-button.verify:hover {
+  background-color: #15803d;
+}
+
+.otp-box-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.otp-box {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.otp-box:focus {
+  border-color: #2563eb;
+}
+
+.otp-resend,
+.otp-change-email {
+  background: none;
+  border: none;
+  color: #2563eb;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.otp-resend:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.otp-success {
+  color: #16a34a;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.otp-message {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.otp-message.error {
+  color: #dc2626;
+}
+
+.otp-message.success {
+  color: #16a34a;
+}
