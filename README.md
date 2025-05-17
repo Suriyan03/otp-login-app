@@ -17,3 +17,6 @@ Users enter their email, receive an OTP, verify it, and then get logged in with 
 ```bash
 git clone https://github.com/Suriyan03/otp-login-app.git
 cd otp-login-app
+
+cd frontend
+npm install
